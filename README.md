@@ -13,6 +13,13 @@ blobs but the problem here was.. there were unwanted blobs too so i need to filt
 the trick that i applied here was to use a conditional statement to mark down only those areas as blobs
 whose ``height, width, area, and perimeter`` matched the threshold.
 
+## Required Modules
+```
+>> pip install opencv-contrib-pyton
+>> pip install imutils
+>> pip install numpy
+```
+
 ## Here are the input images
 ![Image](https://github.com/imneonizer/Finding-blobs-and-lines-in-an-image/blob/master/assets/input.png)
 
