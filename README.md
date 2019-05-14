@@ -14,7 +14,7 @@ the trick that i applied here was to use a conditional statement to mark down on
 whose ``height, width, area, and perimeter`` matched the threshold.
 
 ## Here are the input images
-![Image](https://github.com/imneonizer/Finding-blobs-and-lines-in-an-image/tree/master/assets/input.png)
+![Image](https://github.com/imneonizer/Finding-blobs-and-lines-in-an-image/blob/master/assets/input.png)
 
 ## Step 1 : Finding the largeset contour shape in the image
 > In our case it is the region of interest for our object detection
