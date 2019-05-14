@@ -41,7 +41,7 @@ mask = np.uint8(mask)
 ![Image](https://github.com/imneonizer/Finding-blobs-and-lines-in-an-image/blob/master/assets/gap_filled.png)
 
 And so to carry on the task the next thing to work upon was to mask out the ``ROI`` from the original image.
-and so i used this ``bitwise_and operation``
+and so i used this ``bitwise_and()`` operation
 ```
 masked = cv2.bitwise_and(image,image,mask = mask)
 ```
