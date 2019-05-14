@@ -18,7 +18,7 @@ whose ``height, width, area, and perimeter`` matched the threshold.
 
 ## Step 1 : Finding the largeset contour shape in the image
 > In our case it is the region of interest for our object detection
-so let's have th example of ``Unknown-3.jpg`` 
+so let's have the example of ``Unknown-3.jpg`` 
 when i applied ``OTSU_Binarization`` and adaptive thresholding the result looked somethig like this
 
 ![Image](https://github.com/imneonizer/Finding-blobs-and-lines-in-an-image/blob/master/assets/gap.png)
