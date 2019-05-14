@@ -13,4 +13,7 @@ blobs but the problem here was.. there were unwanted blobs too so i need to filt
 the trick that i applied here was to use a conditional statement to mark down only those areas as blobs
 whose ``height, width, area, and perimeter`` matched the threshold.
 
-![Image](http://url/to/img.png)
+## Here it the input image 
+![Image](https://github.com/imneonizer/Finding-blobs-and-lines-in-an-image/blob/master/images/Unknown-3.jpg)
+
+
