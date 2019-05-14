@@ -36,7 +36,7 @@ kernel = np.ones((10, 10), np.uint8)
 mask = cv2.dilate(fg, kernel, iterations=5)
 mask = np.uint8(mask)
 ```
->After which i achieved this.
+> After which i achieved this.
 ![Image](https://github.com/imneonizer/Finding-blobs-and-lines-in-an-image/blob/master/assets/gap_filled.png)
 
 And so to carry on the task the next thing to work upon was to mask out the ``ROI`` from the original image.
