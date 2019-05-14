@@ -24,7 +24,7 @@ when i applied ``OTSU_Binarization`` and adaptive thresholding the result looked
 ![Image](https://github.com/imneonizer/Finding-blobs-and-lines-in-an-image/blob/master/assets/gap.png)
 
 ## Step 2 : Filling the Gaps
-T fill up the gaps i used some Morphological Operations..
+To fill up the gaps i used some Morphological Operations..
 
 ```
 kernel = np.ones((3, 3), np.uint8) 
@@ -36,7 +36,7 @@ kernel = np.ones((10, 10), np.uint8)
 mask = cv2.dilate(fg, kernel, iterations=5)
 mask = np.uint8(mask)
 ```
-After which i achieved this.
+>After which i achieved this.
 ![Image](https://github.com/imneonizer/Finding-blobs-and-lines-in-an-image/blob/master/assets/gap_filled.png)
 
 And so to carry on the task the next thing to work upon was to mask out the ``ROI`` from the original image.
