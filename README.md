@@ -124,6 +124,9 @@ Hope you Enjoyed the Explaination, By the way i also tried to keep the most of t
 a try and catch block so that it don't interrupt abnormally, in case any error occurs.
 along with it i tried to implement a time logging trick so as to check how fast the code is able to process the image.
 
+> Due to unavailability of space i didn't transcribed the coordinate location of the detected blobs.
+> However it can be easily found out by altering the code a little bit.
+
 Thanks for Reading
 Nitin Rai
 Contact: mneonizer@gmail.com
