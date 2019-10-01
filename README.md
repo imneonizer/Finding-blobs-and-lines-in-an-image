@@ -33,7 +33,7 @@ when i applied ``OTSU_Binarization`` and adaptive thresholding the result looked
 ## Step 2 : Filling the Gaps
 To fill up the gaps i used some Morphological Operations..
 
-```
+```python
 kernel = np.ones((3, 3), np.uint8) 
 closing = cv2.morphologyEx(thresh, cv2.MORPH_CLOSE, kernel, iterations = 1)  
 dist_transform = cv2.distanceTransform(closing, cv2.DIST_L2, 0) 
@@ -63,7 +63,7 @@ so we need to detect them first before measuring their sizes and finding their c
 > Again i used a set of operation like, ``Blurring > Erosion > Dilation`` and finally Contour tracing on top of Thresholded image
 
 Below is the code for the same
-```
+```python
 blurred = cv2.GaussianBlur(thresh, (9, 9), 0)
 thresh = cv2.threshold(blurred, 60, 255, cv2.THRESH_BINARY)[1]
 
